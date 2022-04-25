@@ -8,6 +8,6 @@ on_chroot << EOF
     rsync ./etc / -a -v
     cd ..
     rm -r -f raspberrypi-ui-mods
-    mv splash.png ./usr/share/plymouth/themes/pix/
 EOF
+sudo cp ./splash.png "../../work/$IMG_NAME/stage5/rootfs/usr/share/plymouth/themes/pix/"
 #to do write rsync
