@@ -6,5 +6,8 @@ on_chroot << EOF
     cd raspberrypi-ui-mods
     rsync ./usr / -a -v
     rsync ./etc / -a -v
+    cd ..
+    rm -r -f raspberrypi-ui-mods
+    mv splash.png ./usr/share/plymouth/themes/pix/
 EOF
 #to do write rsync
