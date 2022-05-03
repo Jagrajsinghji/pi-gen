@@ -6,5 +6,6 @@ on_chroot << EOF
     cd raspberrypi-ui-mods
     rsync ./usr / -a -v
     rsync ./etc / -a -v
+    cd ../
+    rm -r -f raspberrypi-ui-mods
 EOF
-#to do write rsync
