@@ -1,0 +1,15 @@
+cmake 
+libprotobuf-dev
+libsdformat-dev
+qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+libboost-all-dev
+libfreeimage-dev
+libprotoc-dev
+protobuf-compiler
+libtinyxml2-dev
+libtbb-dev
+libtar-dev
+libignition-msgs-dev libignition-transport-dev libignition-common-dev libignition-fuel-tools-dev
+libqwt-qt5-dev
+libogre-1.9-dev
+libfreeimageplus-dev freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev lua5.3 doxygen graphviz libgraphviz-dev asciidoc
