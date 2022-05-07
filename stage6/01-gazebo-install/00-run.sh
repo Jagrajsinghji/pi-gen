@@ -6,8 +6,10 @@ on_chroot << EOF
     mkdir build
     cd build
     cmake ..
-    make install
+    make install -j6
     make doc
     sudo make install
     sudo ldconfig
+    cd ../../
+    sudo rm -r -f ./gazebo
 EOF
