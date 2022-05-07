@@ -13,3 +13,7 @@ libignition-msgs-dev libignition-transport-dev libignition-common-dev libignitio
 libqwt-qt5-dev
 libogre-1.9-dev
 libfreeimageplus-dev freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev lua5.3 doxygen graphviz libgraphviz-dev asciidoc
+libjpeg-dev
+libfltk1.3-dev
+libeigen3-dev libassimp-dev libccd-dev libfcl-dev libboost-regex-dev libboost-system-dev
+libopenscenegraph-dev
