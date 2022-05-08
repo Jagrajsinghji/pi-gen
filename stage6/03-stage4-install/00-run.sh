@@ -6,7 +6,7 @@ on_chroot << EOF
     mkdir build
     cd build
     cmake ..
-    sudo make install -j6
+    sudo make install
     sudo ldconfig
     cd ../../
     sudo rm -r -f ./stage

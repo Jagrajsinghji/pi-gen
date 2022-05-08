@@ -6,8 +6,8 @@ on_chroot << EOF
     mkdir build
     cd build
     cmake ..
-    make -j6
-    make install -j6
+    make
+    make install
     sudo ldconfig
     cd ../../
     sudo rm -r -f ./dart

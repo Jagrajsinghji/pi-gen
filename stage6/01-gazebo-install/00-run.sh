@@ -6,7 +6,7 @@ on_chroot << EOF
     mkdir build
     cd build
     cmake ..
-    make install -j6
+    make install
     make doc
     sudo make install
     sudo ldconfig
