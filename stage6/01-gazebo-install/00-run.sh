@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 on_chroot << EOF
-    git clone --depth 1 https://github.com/osrf/gazebo.git gazebo
+    git clone --depth 1 --branch gazebo11_11.10.2 https://github.com/osrf/gazebo.git gazebo
     cd gazebo
     mkdir build
     cd build
