@@ -9,4 +9,4 @@ on_chroot << EOF
     cd ../
     rm -r -f raspberrypi-ui-mods
 EOF
-sudo cp ./splash.png "../../work/$IMG_NAME/stage5/rootfs/usr/share/plymouth/themes/pix/"
+sudo cp ./splash.png "../../work/$IMG_NAME/stage8/rootfs/usr/share/plymouth/themes/pix/"
